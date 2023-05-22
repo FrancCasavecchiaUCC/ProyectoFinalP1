@@ -1,6 +1,6 @@
 #pragma once
 #include <string>
-#include "Proveedor.h"
+
 
 //TODO: clase con:
 //1) codigo del vino
@@ -26,9 +26,9 @@ private:
     char v_tipoVino;
     float v_precioSinImpuesto;
     float v_precioVentaPublico;
-
-    //composcion con proovedor
-    Proveedor proveedor;
+    std::string v_nombreProveedor;
+    int v_telefonoProveedor;
+    int v_dniProveedor;
 
 public:
     Vinedo(int codigo, std::string nombreVino, std::string nombreMarca,
@@ -36,7 +36,7 @@ public:
            int mesIngreso, int anioIngreso,
            char tipoVino,
            float precioSinImpuesto,
-           Proveedor proveedor);
+           std::string nombreProveedor, int telefonoProveedor, int dniProveedor);
 
     int getCodigo();
     std::string getNombreVino();
@@ -48,7 +48,9 @@ public:
     int getAnioIngreso();
     char getTipoVino();
     float getPrecioSinImpuesto();
-    Proveedor getProveedor();
+    std::string getNombreProveedor();
+    int getTelefonoProveedor();
+    int getDniProveedor();
 
     //Busqueda por nombre de vino y devolver toda la info dl vino seleccionado
 //Modificar precio del vino a traves del codigo de vino

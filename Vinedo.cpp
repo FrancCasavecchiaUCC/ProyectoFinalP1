@@ -1,6 +1,6 @@
 #include "Vinedo.h"
 #include <iostream>
-#include "Proveedor.h"
+
 
 //TODO:
 //Agregrar productos al sistema
@@ -11,12 +11,12 @@
 //Imprimir productos -- genera un archivo. txt con la información del producto (código)
 //Muestra total de porductos y el total de sus precios de venta al publico
 
-Vinedo :: Vinedo(int codigo, std::string nombreVino, std::string nombreMarca,
+Vinedo::Vinedo(int codigo, std::string nombreVino, std::string nombreMarca,
                  int dia, int mes, int anio,
                  int mesIngreso, int anioIngreso,
                  char tipoVino,
                  float precioSinImpuesto,
-                 Proveedor(proveedor)) {
+                 std::string nombreProveedor, int telefonoProveedor, int dniProveedor) {
     v_codigo = codigo;
     v_nombreVino = nombreVino;
     v_nombreMarca = nombreMarca;
@@ -27,7 +27,10 @@ Vinedo :: Vinedo(int codigo, std::string nombreVino, std::string nombreMarca,
     v_anioIngreso = anioIngreso;
     v_tipoVino = tipoVino;
     v_precioSinImpuesto = precioSinImpuesto;
-    this->proveedor = proveedor;
+    v_nombreProveedor = nombreProveedor;
+    v_telefonoProveedor = telefonoProveedor;
+    v_dniProveedor = dniProveedor;
+
 }
 
 //Getters
@@ -41,14 +44,14 @@ int Vinedo::getMesIngreso() {return v_mesIngreso;}
 int Vinedo::getAnioIngreso() {return v_anioIngreso;}
 char Vinedo::getTipoVino() {return v_tipoVino;}
 float Vinedo::getPrecioSinImpuesto() {return v_precioSinImpuesto;}
-Proveedor Vinedo::getProveedor() {return proveedor;}
+std::string Vinedo::getNombreProveedor() {return v_nombreProveedor;}
+int Vinedo::getTelefonoProveedor() {return v_telefonoProveedor;}
+int Vinedo::getDniProveedor() {return v_dniProveedor;}
+
 
 //Metodos
 
 //Busqueda por nombre de vino y devolver toda la info dl vino seleccionado
-void Vinedo::buscarNombre(std::string nombreVino) {
-
-}
 
 //Modificar precio del vino a traves del codigo de vino
 
