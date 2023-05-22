@@ -55,8 +55,8 @@ build CMakeFiles/trabajo_final.dir/main.cpp.obj: CXX_COMPILER__trabajo_final_Deb
   OBJECT_DIR = CMakeFiles\trabajo_final.dir
   OBJECT_FILE_DIR = CMakeFiles\trabajo_final.dir
 
-build CMakeFiles/trabajo_final.dir/vinedo.cpp.obj: CXX_COMPILER__trabajo_final_Debug C$:/Users/franc/OneDrive/Documentos/GitHub/ProyectoFinalP1/vinedo.cpp || cmake_object_order_depends_target_trabajo_final
-  DEP_FILE = CMakeFiles\trabajo_final.dir\vinedo.cpp.obj.d
+build CMakeFiles/trabajo_final.dir/Vinedo.cpp.obj: CXX_COMPILER__trabajo_final_Debug C$:/Users/franc/OneDrive/Documentos/GitHub/ProyectoFinalP1/Vinedo.cpp || cmake_object_order_depends_target_trabajo_final
+  DEP_FILE = CMakeFiles\trabajo_final.dir\Vinedo.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=c++17
   OBJECT_DIR = CMakeFiles\trabajo_final.dir
   OBJECT_FILE_DIR = CMakeFiles\trabajo_final.dir
@@ -75,7 +75,7 @@ build CMakeFiles/trabajo_final.dir/Proveedor.cpp.obj: CXX_COMPILER__trabajo_fina
 #############################################
 # Link the executable trabajo_final.exe
 
-build trabajo_final.exe: CXX_EXECUTABLE_LINKER__trabajo_final_Debug CMakeFiles/trabajo_final.dir/main.cpp.obj CMakeFiles/trabajo_final.dir/vinedo.cpp.obj CMakeFiles/trabajo_final.dir/Proveedor.cpp.obj
+build trabajo_final.exe: CXX_EXECUTABLE_LINKER__trabajo_final_Debug CMakeFiles/trabajo_final.dir/main.cpp.obj CMakeFiles/trabajo_final.dir/Vinedo.cpp.obj CMakeFiles/trabajo_final.dir/Proveedor.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\trabajo_final.dir

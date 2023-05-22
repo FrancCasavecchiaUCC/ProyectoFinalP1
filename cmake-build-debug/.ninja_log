@@ -1,3 +1,7 @@
 # ninja log v5
-1	555	7064719710777951	CMakeFiles/trabajo_final.dir/main.cpp.obj	3be7733d0040d15f
-557	716	7064719712365867	trabajo_final.exe	378ab455991959e3
+2	470	7064791061906620	CMakeFiles/trabajo_final.dir/main.cpp.obj	3be7733d0040d15f
+1	345	7064792800162574	build.ninja	8317dd8d73b839e5
+7	416	7064791061354728	CMakeFiles/trabajo_final.dir/Vinedo.cpp.obj	f3ffac05fffb0be0
+470	612	7064791063277324	trabajo_final.exe	e33d225ced96a90
+18	449	7064777417429098	CMakeFiles/trabajo_final.dir/vinedo.cpp.obj	434c69fd6ac956e
+19	432	7064790557132574	CMakeFiles/trabajo_final.dir/Proveedor.cpp.obj	2eefeee5ddcc3ae0
