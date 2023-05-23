@@ -10,7 +10,7 @@
 //TODO: Arreglar la busqueda de proveedor
 //TODO: Arreglar la busqueda de vino
 //TODO: Arreglar mostrar un producto,depachos de proovedor, mostrar todos los productos
-//TODO
+//TODO: Agregar assert para verificacion
 int main(){
     using namespace std;
     vector<Vinedo> vinos;
