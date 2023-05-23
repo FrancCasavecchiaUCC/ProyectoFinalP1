@@ -23,7 +23,7 @@ private:
     int v_anio;
     int v_mesIngreso;
     int v_anioIngreso;
-    char v_tipoVino;
+    std::string v_tipoVino;
     float v_precioSinImpuesto;
     float v_precioVentaPublico;
     std::string v_nombreProveedor;
@@ -34,34 +34,25 @@ public:
     Vinedo(int codigo, std::string nombreVino, std::string nombreMarca,
            int dia, int mes, int anio,
            int mesIngreso, int anioIngreso,
-           char tipoVino,
+           std::string tipoVino,
            float precioSinImpuesto,
            std::string nombreProveedor, int telefonoProveedor, int dniProveedor);
 
     int getCodigo();
     std::string getNombreVino();
-    std::string getNombreMarca();
-    int getDia();
-    int getMes();
-    int getAnio();
-    int getMesIngreso();
-    int getAnioIngreso();
-    char getTipoVino();
-    float getPrecioSinImpuesto();
-    std::string getNombreProveedor();
-    int getTelefonoProveedor();
     int getDniProveedor();
 
-    //Busqueda por nombre de vino y devolver toda la info dl vino seleccionado
-//Modificar precio del vino a traves del codigo de vino
-//Modificar fecha de ingreso al supermercado de un determinado vino por codigo
-//Imprimir productos -- genera un archivo. txt con la información del producto (código)
-//Muestra total de porductos y el total de sus precios de venta al publico
+    int setMes(int mes);
+    int setAnio(int anio);
+    float setPrecioSinImpuesto(float precioSinImpuesto);
+
     //Metodos
-    void buscarNombre(std::string nombreVino);
-    void modifPrecio(int codigo, float precio);
-    void modifFecha(int codigo, int mes, int anio);
-    void imprimirProductos();
-    void mostrarTotal();
+
+    void mostrar();
+    void mostrarFinal();
+    float calcularPrecioPublico();
+
+    std::string obtenerInformacion()const;
+    std::string obtenerProveedor()const;
 
 };

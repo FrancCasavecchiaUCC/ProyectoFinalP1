@@ -2,19 +2,12 @@
 #include <iostream>
 
 
-//TODO:
-//Agregrar productos al sistema
-//Eliminar productos del sistema
-//Busqueda por nombre de vino y devolver toda la info dl vino seleccionado
-//Modificar precio del vino a traves del codigo de vino
-//Modificar fecha de ingreso al supermercado de un determinado vino por codigo
-//Imprimir productos -- genera un archivo. txt con la información del producto (código)
-//Muestra total de porductos y el total de sus precios de venta al publico
 
+//Constructor
 Vinedo::Vinedo(int codigo, std::string nombreVino, std::string nombreMarca,
                  int dia, int mes, int anio,
                  int mesIngreso, int anioIngreso,
-                 char tipoVino,
+                 std::string tipoVino,
                  float precioSinImpuesto,
                  std::string nombreProveedor, int telefonoProveedor, int dniProveedor) {
     v_codigo = codigo;
@@ -36,30 +29,75 @@ Vinedo::Vinedo(int codigo, std::string nombreVino, std::string nombreMarca,
 //Getters
 int Vinedo::getCodigo() {return v_codigo;}
 std::string Vinedo::getNombreVino() {return v_nombreVino;}
-std::string Vinedo::getNombreMarca() {return v_nombreMarca;}
-int Vinedo::getDia() {return v_dia;}
-int Vinedo::getMes() {return v_mes;}
-int Vinedo::getAnio() {return v_anio;}
-int Vinedo::getMesIngreso() {return v_mesIngreso;}
-int Vinedo::getAnioIngreso() {return v_anioIngreso;}
-char Vinedo::getTipoVino() {return v_tipoVino;}
-float Vinedo::getPrecioSinImpuesto() {return v_precioSinImpuesto;}
-std::string Vinedo::getNombreProveedor() {return v_nombreProveedor;}
-int Vinedo::getTelefonoProveedor() {return v_telefonoProveedor;}
 int Vinedo::getDniProveedor() {return v_dniProveedor;}
 
+//Setters
+int Vinedo::setMes(int mes) {
+    v_mes = mes;
+    return v_mes;
+}
+int Vinedo::setAnio(int anio) {
+    v_anio = anio;
+    return v_anio;
+}
+float Vinedo::setPrecioSinImpuesto(float precioSinImpuesto) {
+    v_precioSinImpuesto = precioSinImpuesto;
+    return v_precioSinImpuesto;
+}
 
 //Metodos
+float Vinedo::calcularPrecioPublico() {
+    v_precioVentaPublico = v_precioSinImpuesto * 1.15;
+    return v_precioVentaPublico;
+}
 
-//Busqueda por nombre de vino y devolver toda la info dl vino seleccionado
+void Vinedo::mostrar() {
+    std::cout << "Codigo: " << v_codigo << std::endl;
+    std::cout << "Nombre del vino: " << v_nombreVino << std::endl;
+    std::cout << "Nombre de la marca: " << v_nombreMarca << std::endl;
+    std::cout << "Fecha de fabricacion: " << v_dia << "/" << v_mes << "/" << v_anio << std::endl;
+    std::cout << "Fecha de ingreso al supermercado: " << v_mesIngreso << "/" << v_anioIngreso << std::endl;
+    std::cout << "Tipo de vino: " << v_tipoVino << std::endl;
+    std::cout << "Precio sin impuesto: " << v_precioSinImpuesto << std::endl;
+    std::cout << "Nombre del proveedor: " << v_nombreProveedor << std::endl;
+    std::cout << "Telefono del proveedor: " << v_telefonoProveedor << std::endl;
+    std::cout << "DNI del proveedor: " << v_dniProveedor << std::endl;
+}
 
-//Modificar precio del vino a traves del codigo de vino
+void Vinedo::mostrarFinal() {
+    std::cout << "Codigo: " << v_codigo << std::endl;
+    std::cout << "Nombre del vino: " << v_nombreVino << std::endl;
+    std::cout << "Nombre de la marca: " << v_nombreMarca << std::endl;
+    std::cout << "Fecha de fabricacion: " << v_dia << "/" << v_mes << "/" << v_anio << std::endl;
+    std::cout << "Fecha de ingreso al supermercado: " << v_mesIngreso << "/" << v_anioIngreso << std::endl;
+    std::cout << "Tipo de vino: " << v_tipoVino << std::endl;
+    std::cout << "Precio de venta al publico: " << calcularPrecioPublico() << std::endl;
+    std::cout << "Nombre del proveedor: " << v_nombreProveedor << std::endl;
+    std::cout << "Telefono del proveedor: " << v_telefonoProveedor << std::endl;
+    std::cout << "DNI del proveedor: " << v_dniProveedor << std::endl;
+}
 
+std::string Vinedo::obtenerInformacion() const {
+    std::string informacion;
 
-//Modificar fecha de ingreso al supermercado de un determinado vino por codigo
+    informacion += "Código: " + std::to_string(v_codigo) + "\n";
+    informacion += "Nombre del vino: " + v_nombreVino + "\n";
+    informacion += "Nombre de la marca: " + v_nombreMarca + "\n";
+    informacion += "Fecha de fabricación: " + std::to_string(v_dia) + "/" + std::to_string(v_mes) + "/" + std::to_string(v_anio) + "\n";
+    informacion += "Fecha de ingreso al supermercado: " + std::to_string(v_mesIngreso) + "/" + std::to_string(v_anioIngreso) + "\n";
+    informacion += "Tipo de vino: " + v_tipoVino + "\n";
+    informacion += "Precio sin impuesto: " + std::to_string(v_precioSinImpuesto) + "\n";
 
+    return informacion;
+}
 
-//Imprimir productos -- genera un archivo. txt con la información del producto (código)
+std::string Vinedo::obtenerProveedor() const {
+    std::string informacion;
 
+    informacion += "Nombre: " + v_nombreProveedor + "\n";
+    informacion += "Teléfono: " + std::to_string(v_telefonoProveedor) + "\n";
+    informacion += "DNI: " + std::to_string(v_dniProveedor) + "\n";
 
-//Muestra total de porductos y el total de sus precios de venta al publico
+    return informacion;
+}
+

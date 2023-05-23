@@ -82,16 +82,16 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/Tomi/Documents/GitHub/ProyectoFinalP1/Proveedor.cpp">
-			<Option target="trabajo_final"/>
-		</Unit>
-		<Unit filename="C:/Users/Tomi/Documents/GitHub/ProyectoFinalP1/Proveedor.h">
-			<Option target="trabajo_final"/>
-		</Unit>
 		<Unit filename="C:/Users/Tomi/Documents/GitHub/ProyectoFinalP1/Vinedo.cpp">
 			<Option target="trabajo_final"/>
 		</Unit>
 		<Unit filename="C:/Users/Tomi/Documents/GitHub/ProyectoFinalP1/Vinedo.h">
+			<Option target="trabajo_final"/>
+		</Unit>
+		<Unit filename="C:/Users/Tomi/Documents/GitHub/ProyectoFinalP1/generarTXT.cpp">
+			<Option target="trabajo_final"/>
+		</Unit>
+		<Unit filename="C:/Users/Tomi/Documents/GitHub/ProyectoFinalP1/generarTXT.h">
 			<Option target="trabajo_final"/>
 		</Unit>
 		<Unit filename="C:/Users/Tomi/Documents/GitHub/ProyectoFinalP1/main.cpp">

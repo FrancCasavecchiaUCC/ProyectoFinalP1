@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/Tomi/Documents/GitHub/ProyectoFinalP1/Proveedor.cpp" "CMakeFiles/trabajo_final.dir/Proveedor.cpp.obj" "gcc" "CMakeFiles/trabajo_final.dir/Proveedor.cpp.obj.d"
   "C:/Users/Tomi/Documents/GitHub/ProyectoFinalP1/Vinedo.cpp" "CMakeFiles/trabajo_final.dir/Vinedo.cpp.obj" "gcc" "CMakeFiles/trabajo_final.dir/Vinedo.cpp.obj.d"
+  "C:/Users/Tomi/Documents/GitHub/ProyectoFinalP1/generarTXT.cpp" "CMakeFiles/trabajo_final.dir/generarTXT.cpp.obj" "gcc" "CMakeFiles/trabajo_final.dir/generarTXT.cpp.obj.d"
   "C:/Users/Tomi/Documents/GitHub/ProyectoFinalP1/main.cpp" "CMakeFiles/trabajo_final.dir/main.cpp.obj" "gcc" "CMakeFiles/trabajo_final.dir/main.cpp.obj.d"
   )
 

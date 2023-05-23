@@ -128,30 +128,6 @@ trabajo_final/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\trabajo_final.dir\build.make CMakeFiles/trabajo_final.dir/build
 .PHONY : trabajo_final/fast
 
-Proveedor.obj: Proveedor.cpp.obj
-.PHONY : Proveedor.obj
-
-# target to build an object file
-Proveedor.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\trabajo_final.dir\build.make CMakeFiles/trabajo_final.dir/Proveedor.cpp.obj
-.PHONY : Proveedor.cpp.obj
-
-Proveedor.i: Proveedor.cpp.i
-.PHONY : Proveedor.i
-
-# target to preprocess a source file
-Proveedor.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\trabajo_final.dir\build.make CMakeFiles/trabajo_final.dir/Proveedor.cpp.i
-.PHONY : Proveedor.cpp.i
-
-Proveedor.s: Proveedor.cpp.s
-.PHONY : Proveedor.s
-
-# target to generate assembly for a file
-Proveedor.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\trabajo_final.dir\build.make CMakeFiles/trabajo_final.dir/Proveedor.cpp.s
-.PHONY : Proveedor.cpp.s
-
 Vinedo.obj: Vinedo.cpp.obj
 .PHONY : Vinedo.obj
 
@@ -175,6 +151,30 @@ Vinedo.s: Vinedo.cpp.s
 Vinedo.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\trabajo_final.dir\build.make CMakeFiles/trabajo_final.dir/Vinedo.cpp.s
 .PHONY : Vinedo.cpp.s
+
+generarTXT.obj: generarTXT.cpp.obj
+.PHONY : generarTXT.obj
+
+# target to build an object file
+generarTXT.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\trabajo_final.dir\build.make CMakeFiles/trabajo_final.dir/generarTXT.cpp.obj
+.PHONY : generarTXT.cpp.obj
+
+generarTXT.i: generarTXT.cpp.i
+.PHONY : generarTXT.i
+
+# target to preprocess a source file
+generarTXT.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\trabajo_final.dir\build.make CMakeFiles/trabajo_final.dir/generarTXT.cpp.i
+.PHONY : generarTXT.cpp.i
+
+generarTXT.s: generarTXT.cpp.s
+.PHONY : generarTXT.s
+
+# target to generate assembly for a file
+generarTXT.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\trabajo_final.dir\build.make CMakeFiles/trabajo_final.dir/generarTXT.cpp.s
+.PHONY : generarTXT.cpp.s
 
 main.obj: main.cpp.obj
 .PHONY : main.obj
@@ -209,12 +209,12 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... trabajo_final
-	@echo ... Proveedor.obj
-	@echo ... Proveedor.i
-	@echo ... Proveedor.s
 	@echo ... Vinedo.obj
 	@echo ... Vinedo.i
 	@echo ... Vinedo.s
+	@echo ... generarTXT.obj
+	@echo ... generarTXT.i
+	@echo ... generarTXT.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

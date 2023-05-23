@@ -96,32 +96,32 @@ CMakeFiles/trabajo_final.dir/Vinedo.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/trabajo_final.dir/Vinedo.cpp.s"
 	"D:\Program Files\CLion 2023.1.3\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Tomi\Documents\GitHub\ProyectoFinalP1\Vinedo.cpp -o CMakeFiles\trabajo_final.dir\Vinedo.cpp.s
 
-CMakeFiles/trabajo_final.dir/Proveedor.cpp.obj: CMakeFiles/trabajo_final.dir/flags.make
-CMakeFiles/trabajo_final.dir/Proveedor.cpp.obj: C:/Users/Tomi/Documents/GitHub/ProyectoFinalP1/Proveedor.cpp
-CMakeFiles/trabajo_final.dir/Proveedor.cpp.obj: CMakeFiles/trabajo_final.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Tomi\Documents\GitHub\ProyectoFinalP1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/trabajo_final.dir/Proveedor.cpp.obj"
-	"D:\Program Files\CLion 2023.1.3\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/trabajo_final.dir/Proveedor.cpp.obj -MF CMakeFiles\trabajo_final.dir\Proveedor.cpp.obj.d -o CMakeFiles\trabajo_final.dir\Proveedor.cpp.obj -c C:\Users\Tomi\Documents\GitHub\ProyectoFinalP1\Proveedor.cpp
+CMakeFiles/trabajo_final.dir/generarTXT.cpp.obj: CMakeFiles/trabajo_final.dir/flags.make
+CMakeFiles/trabajo_final.dir/generarTXT.cpp.obj: C:/Users/Tomi/Documents/GitHub/ProyectoFinalP1/generarTXT.cpp
+CMakeFiles/trabajo_final.dir/generarTXT.cpp.obj: CMakeFiles/trabajo_final.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Tomi\Documents\GitHub\ProyectoFinalP1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/trabajo_final.dir/generarTXT.cpp.obj"
+	"D:\Program Files\CLion 2023.1.3\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/trabajo_final.dir/generarTXT.cpp.obj -MF CMakeFiles\trabajo_final.dir\generarTXT.cpp.obj.d -o CMakeFiles\trabajo_final.dir\generarTXT.cpp.obj -c C:\Users\Tomi\Documents\GitHub\ProyectoFinalP1\generarTXT.cpp
 
-CMakeFiles/trabajo_final.dir/Proveedor.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/trabajo_final.dir/Proveedor.cpp.i"
-	"D:\Program Files\CLion 2023.1.3\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Tomi\Documents\GitHub\ProyectoFinalP1\Proveedor.cpp > CMakeFiles\trabajo_final.dir\Proveedor.cpp.i
+CMakeFiles/trabajo_final.dir/generarTXT.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/trabajo_final.dir/generarTXT.cpp.i"
+	"D:\Program Files\CLion 2023.1.3\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Tomi\Documents\GitHub\ProyectoFinalP1\generarTXT.cpp > CMakeFiles\trabajo_final.dir\generarTXT.cpp.i
 
-CMakeFiles/trabajo_final.dir/Proveedor.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/trabajo_final.dir/Proveedor.cpp.s"
-	"D:\Program Files\CLion 2023.1.3\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Tomi\Documents\GitHub\ProyectoFinalP1\Proveedor.cpp -o CMakeFiles\trabajo_final.dir\Proveedor.cpp.s
+CMakeFiles/trabajo_final.dir/generarTXT.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/trabajo_final.dir/generarTXT.cpp.s"
+	"D:\Program Files\CLion 2023.1.3\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Tomi\Documents\GitHub\ProyectoFinalP1\generarTXT.cpp -o CMakeFiles\trabajo_final.dir\generarTXT.cpp.s
 
 # Object files for target trabajo_final
 trabajo_final_OBJECTS = \
 "CMakeFiles/trabajo_final.dir/main.cpp.obj" \
 "CMakeFiles/trabajo_final.dir/Vinedo.cpp.obj" \
-"CMakeFiles/trabajo_final.dir/Proveedor.cpp.obj"
+"CMakeFiles/trabajo_final.dir/generarTXT.cpp.obj"
 
 # External object files for target trabajo_final
 trabajo_final_EXTERNAL_OBJECTS =
 
 trabajo_final.exe: CMakeFiles/trabajo_final.dir/main.cpp.obj
 trabajo_final.exe: CMakeFiles/trabajo_final.dir/Vinedo.cpp.obj
-trabajo_final.exe: CMakeFiles/trabajo_final.dir/Proveedor.cpp.obj
+trabajo_final.exe: CMakeFiles/trabajo_final.dir/generarTXT.cpp.obj
 trabajo_final.exe: CMakeFiles/trabajo_final.dir/build.make
 trabajo_final.exe: CMakeFiles/trabajo_final.dir/linkLibs.rsp
 trabajo_final.exe: CMakeFiles/trabajo_final.dir/objects1

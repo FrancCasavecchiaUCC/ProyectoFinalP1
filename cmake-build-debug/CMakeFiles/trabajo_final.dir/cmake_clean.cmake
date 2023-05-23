@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/trabajo_final.dir/Proveedor.cpp.obj"
-  "CMakeFiles/trabajo_final.dir/Proveedor.cpp.obj.d"
   "CMakeFiles/trabajo_final.dir/Vinedo.cpp.obj"
   "CMakeFiles/trabajo_final.dir/Vinedo.cpp.obj.d"
+  "CMakeFiles/trabajo_final.dir/generarTXT.cpp.obj"
+  "CMakeFiles/trabajo_final.dir/generarTXT.cpp.obj.d"
   "CMakeFiles/trabajo_final.dir/main.cpp.obj"
   "CMakeFiles/trabajo_final.dir/main.cpp.obj.d"
   "libtrabajo_final.dll.a"
