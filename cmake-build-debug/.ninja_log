@@ -1,7 +1,13 @@
 # ninja log v5
 2	470	7064791061906620	CMakeFiles/trabajo_final.dir/main.cpp.obj	3be7733d0040d15f
-1	345	7064792800162574	build.ninja	8317dd8d73b839e5
+1	345	7065440736560383	build.ninja	8317dd8d73b839e5
 7	416	7064791061354728	CMakeFiles/trabajo_final.dir/Vinedo.cpp.obj	f3ffac05fffb0be0
 470	612	7064791063277324	trabajo_final.exe	e33d225ced96a90
-18	449	7064777417429098	CMakeFiles/trabajo_final.dir/vinedo.cpp.obj	434c69fd6ac956e
-19	432	7064790557132574	CMakeFiles/trabajo_final.dir/Proveedor.cpp.obj	2eefeee5ddcc3ae0
+40	1196	7074257619440352	CMakeFiles/trabajo_final.dir/generarTXT.cpp.obj	d0e24616ba2a4eab
+5	1234	7074257619762299	CMakeFiles/trabajo_final.dir/Vinedo.cpp.obj	f3ffac05fffb0be0
+31	1287	7074257620465460	CMakeFiles/trabajo_final.dir/main.cpp.obj	3be7733d0040d15f
+1288	1746	7074257624969263	trabajo_final.exe	8bf2c9a951ad2cfd
+3	527	7074259108483627	CMakeFiles/trabajo_final.dir/generarTXT.cpp.obj	d0e24616ba2a4eab
+528	680	7074259109937465	trabajo_final.exe	8bf2c9a951ad2cfd
+3	589	7074260507798843	CMakeFiles/trabajo_final.dir/generarTXT.cpp.obj	d0e24616ba2a4eab
+590	758	7074260509441691	trabajo_final.exe	8bf2c9a951ad2cfd

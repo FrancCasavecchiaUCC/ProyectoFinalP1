@@ -3,8 +3,8 @@
 #include <fstream>
 
 void generarArchivoTxt(const std::string& nombreArchivo, const std::string& contenido) {
-    std::string directorio = "Archivos/";
-    std::string completa = directorio + nombreArchivo;
+    std::string directorio = R"(C:\Users\franc\OneDrive\Documentos\GitHub\ProyectoFinalP1\Archivos\)";
+    std::string completa = directorio + "_" +nombreArchivo;
 
     std::ofstream archivo(completa);
     if (archivo.is_open()) {

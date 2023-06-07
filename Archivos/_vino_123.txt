@@ -1,0 +1,7 @@
+Código: 123
+Nombre del vino: f
+Nombre de la marca: f
+Fecha de fabricación: 123/123/123
+Fecha de ingreso al supermercado: 123/123
+Tipo de vino: m
+Precio sin impuesto: 123.000000
