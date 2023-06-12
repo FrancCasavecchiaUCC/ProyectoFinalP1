@@ -139,10 +139,10 @@ int main(){
 
             case 4: //BUSQUEDA POR VINO
 
-                system("cls");
-                cout << "\n--Busqueda de producto(Nombre Vino)--\n";
-                cout << "Ingrese el nombre del vino\n";
-                cin >> nombreVino;
+                    system("cls");
+                    cout << "\n--Busqueda de producto(Nombre Vino)--\n";
+                    cout << "Ingrese el nombre del vino\n";
+                    cin >> nombreVino;
 
                 while(opcion2 != 1){
                     for (auto & vino : vinos) {
